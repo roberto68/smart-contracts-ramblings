@@ -1,0 +1,17 @@
+{
+  "name": "ico_pokus",
+  "version": "1.0.0",
+  "description": "zeppelin tryout",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "robert balejik",
+  "license": "MIT",
+  "dependencies": {
+    "zeppelin-solidity": "^1.3.0"
+  }
+}

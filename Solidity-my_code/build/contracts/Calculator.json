@@ -1,0 +1,90 @@
+{
+  "contract_name": "Calculator",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "num",
+          "type": "uint256"
+        }
+      ],
+      "name": "addToNumber",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "num",
+          "type": "uint256"
+        }
+      ],
+      "name": "multiplyWithNumber",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "num",
+          "type": "uint256"
+        }
+      ],
+      "name": "substractFromNumber",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "num",
+          "type": "uint256"
+        }
+      ],
+      "name": "divideByNumber",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "initial",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b604051602080610150833981016040528080519150505b60008190555b505b6101138061003d6000396000f300606060405263ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166306ccd2308114605a578063b4679b0614606f578063ef455b3c146084578063f5cb911d146099575b600080fd5b3415606457600080fd5b606d60043560ae565b005b3415607957600080fd5b606d60043560ba565b005b3415608e57600080fd5b606d60043560c6565b005b341560a357600080fd5b606d60043560d3565b005b60008054820190555b50565b60008054820290555b50565b6000805482900390555b50565b8060005481151560df57fe5b046000555b505600a165627a7a7230582023cb1a8187c002e71ec570334cdb1f3a8c904a940aea250118ce94a39a7f585b0029",
+  "networks": {
+    "1502986505536": {
+      "events": {},
+      "links": {},
+      "address": "0x242bd278b62b7afc3942a2455f8a956d9ceef473",
+      "updated_at": 1503040058925
+    },
+    "1505834887929": {
+      "events": {},
+      "links": {},
+      "address": "0x47c8f8e945b4e0974ae3490a9f19b774b81e8c62",
+      "updated_at": 1505908230570
+    },
+    "1508248472123": {
+      "events": {},
+      "links": {},
+      "address": "0xc66132ac196cd69febf5eb4e0409afac73ce158b",
+      "updated_at": 1508248530462
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1508248530462
+}
